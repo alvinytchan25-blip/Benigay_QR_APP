@@ -24,7 +24,7 @@ export default function Index() {
         </View>
         <View>
           <Text style={styles.brandName}>ED_QR</Text>
-          <Text style={styles.brandTagline}>Scan and read any QR code</Text>
+          <Text style={styles.brandTagline}>Scan with ED_QR for your life</Text>
         </View>
       </View>
 
