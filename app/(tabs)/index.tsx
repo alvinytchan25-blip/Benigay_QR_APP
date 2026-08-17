@@ -24,7 +24,7 @@ export default function Index() {
         </View>
         <View>
           <Text style={styles.brandName}>ED_QR</Text>
-          <Text style={styles.brandTagline}>Scan with ED_QR for your life</Text>
+          <Text style={styles.brandTagline}>Scan with ED_QR for your life </Text>
         </View>
       </View>
 
@@ -32,14 +32,14 @@ export default function Index() {
         <View style={styles.statCard}>
           <Text style={styles.statValue}>{scans.length}</Text>
           <Text style={styles.statLabel}>QR codes scanned</Text>
-        </View>
+        </View> 
       </View>
 
       <Text style={styles.greeting}>
         {name ? `Welcome ${name}!` : 'Welcome!'}
       </Text>
-<Text style={styles.subGreeting}>
-        Point your camera at an expo QR code to detect and read what it contains.
+      <Text style={styles.subGreeting}>
+        Point your camera at the QR code to detect and view what it contains.
       </Text>
 
       <TouchableOpacity
